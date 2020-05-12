@@ -20,7 +20,7 @@ in a replication controller, deployment, replica set or stateful set based on ob
 [custom metrics](https://git.k8s.io/community/contributors/design-proposals/instrumentation/custom-metrics-api.md)
 support, on some other application-provided metrics). Note that Horizontal
 Pod Autoscaling does not apply to objects that can't be scaled, for example, DaemonSets.
-
+c
 The Horizontal Pod Autoscaler is implemented as a Kubernetes API resource and a controller.
 The resource determines the behavior of the controller.
 The controller periodically adjusts the number of replicas in a replication controller or deployment
